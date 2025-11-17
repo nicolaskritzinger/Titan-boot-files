@@ -30,3 +30,42 @@ Topics and Summaries:
 Notes:
   - All topics and summaries explicit and factual.
   - Precision Mode: ON, no inferred content.
+
+# Titan Conversation Memory – Precision Mode
+# Format:
+# [Date: YYYY-MM-DD]
+# Topics and concise summaries
+# Notes: All entries are explicit, factual, and precision-mode compliant
+
+[Date: 2025-11-18]
+Topics and Summaries:
+  - Titan Phase‑6 Memory & Persistent Storage:
+      Discussed session memory vs persistent memory, explicit commit requirements, and why some facts (like coffee in the morning) were not automatically saved.
+  - Precision Mode:
+      Explained Precision Mode ON ensures all outputs are explicit, factual, and traceable; OFF allows inferred or flexible responses.
+  - ChatGPT Built-in Memory & Personalization:
+      Reviewed Manage Memory feature, plan-based limitations, and why some memory features may not be visible in the interface.
+  - OpenAI Memory Outage & Bugs:
+      Discussed Nov 6–7, 2025 outage, possible effects of memory file size limits, and symptoms observed such as memory not persisting across sessions.
+  - 10-Question Likes/Dislikes Game:
+      Conducted a game to record user preferences for food, drinks, activities, pets, entertainment, and spice/weather preferences.
+  - Titan Activation/Shutdown Procedures:
+      Clarified "hello titan" and "goodbye titan" commands, and how shutdown compresses session memory for later reference.
+
+  - User Preferences (from 10-question game):
+      Favorite cuisine: braaivleis
+      Favorite drink (other than morning coffee): milk
+      Food preference: savory
+      Activity preference: outdoor
+      Pet preference: dogs
+      Entertainment preference: reading books
+      Weather preference: mild
+      Entertainment preference: listening to music
+      Beverage preference besides coffee: tea
+      Food spice preference: spicy
+
+Notes:
+  - All topics and summaries explicit and factual.
+  - User preferences recorded in Precision Mode.
+  - This format is ready to be copied into the Titan conversation file on GitHub for persistent memory across sessions.
+
