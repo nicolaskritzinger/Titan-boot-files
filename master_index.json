@@ -1,81 +1,45 @@
 {
-  "sessions": [
-    {
-      "session_file": "2025-11-17_activation.json",
-      "date": "2025-11-17",
-      "main_theme": "Titan Core Activation",
-      "summary": "Reviewed Phase 6 status, Precision Mode, memory files, and boot file structure.",
-      "tags": ["boot", "activation", "memory", "precision_mode"],
-      "topics": [
-        {
-          "topic_id": "T001",
-          "title": "Phase 6 Activation",
-          "tags": ["activation", "phase6"]
-        },
-        {
-          "topic_id": "T002",
-          "title": "Memory File Limitations",
-          "tags": ["memory", "limitations"]
-        },
-        {
-          "topic_id": "T003",
-          "title": "GitHub Integration",
-          "tags": ["GitHub", "storage", "persistence"]
-        }
-      ]
+  "master_index": {
+    "last_updated": "2025-11-19T23:00:00",
+    "modules": {
+      "boot": {
+        "url": "https://raw.githubusercontent.com/nicolaskritzinger/Titan-boot-files/refs/heads/main/Titan_boot_file_v1",
+        "token_estimate": 1500,
+        "description": "Titan Core v1 boot file, contains sequences, memory rules, precision mode"
+      },
+      "user": {
+        "url": "https://raw.githubusercontent.com/nicolaskritzinger/Titan-boot-files/refs/heads/main/user.json",
+        "token_estimate": 300,
+        "description": "User identity, preferences, static info"
+      },
+      "conversation_history": {
+        "url": "https://raw.githubusercontent.com/nicolaskritzinger/Titan-boot-files/refs/heads/main/conversation_history.json",
+        "token_estimate": 12000,
+        "description": "All session summaries, topics, and themes"
+      },
+      "memory_philosophy": {
+        "url": "https://raw.githubusercontent.com/nicolaskritzinger/Titan-boot-files/refs/heads/main/Memory_implementaion_philosophy",
+        "token_estimate": 2000,
+        "description": "Hybrid memory architecture philosophy"
+      },
+      "project_objective": {
+        "url": "https://raw.githubusercontent.com/nicolaskritzinger/Titan-boot-files/refs/heads/main/Project_Objective",
+        "token_estimate": 800,
+        "description": "Titan creation goals and purpose"
+      },
+      "titan_purpose": {
+        "url": "https://raw.githubusercontent.com/nicolaskritzinger/Titan-boot-files/refs/heads/main/Titan%20Purpose",
+        "token_estimate": 800,
+        "description": "Titan defined purpose and behavior rules"
+      },
+      "design_considerations_part_1": {
+        "url": "https://raw.githubusercontent.com/nicolaskritzinger/Titan-boot-files/refs/heads/main/Design_considerations_part_1",
+        "token_estimate": 4000,
+        "description": "Detailed session design considerations, memory & context"
+      }
     },
-    {
-      "session_file": "2025-11-18_precision_memory.json",
-      "date": "2025-11-18",
-      "main_theme": "Memory & Persistent Storage",
-      "summary": "Discussion on session vs persistent memory, Precision Mode, user preferences, and November 6 memory outage.",
-      "tags": ["memory", "precision_mode", "preferences", "outage"],
-      "topics": [
-        {
-          "topic_id": "T004",
-          "title": "Hybrid Memory Architecture",
-          "tags": ["memory", "hybrid", "architecture"]
-        },
-        {
-          "topic_id": "T005",
-          "title": "User Preferences",
-          "tags": ["preferences", "user_data"]
-        },
-        {
-          "topic_id": "T006",
-          "title": "Session End Summaries",
-          "tags": ["summary", "session"]
-        }
-      ]
-    },
-    {
-      "session_file": "2025-11-19_context_design.json",
-      "date": "2025-11-19",
-      "main_theme": "Context & Memory Design",
-      "summary": "Discussion on session memory, loader design, YAML request-response format, and master index/tag system.",
-      "tags": ["memory", "loader", "YAML", "session_buffer", "GitHub", "Precision_Mode"],
-      "topics": [
-        {
-          "topic_id": "T007",
-          "title": "Session Buffer & Loader",
-          "tags": ["memory", "loader", "buffer"]
-        },
-        {
-          "topic_id": "T008",
-          "title": "YAML Memory Request/Response",
-          "tags": ["memory", "YAML", "loader"]
-        },
-        {
-          "topic_id": "T009",
-          "title": "Master Index & Tagging",
-          "tags": ["index", "tagging", "session_management"]
-        },
-        {
-          "topic_id": "T010",
-          "title": "GitHub JSON Integration",
-          "tags": ["GitHub", "persistence"]
-        }
-      ]
-    }
-  ]
+    "session_index": [],
+    "total_token_estimate": 20400,
+    "notes": "All modules loaded on-demand via loader; session_index stores references to each session JSON with theme, date, tags, and summary."
+  }
 }
