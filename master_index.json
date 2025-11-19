@@ -1,23 +1,81 @@
-
 {
-  "version": "1.0",
-  "description": "Master index of all Titan long-term memory sessions. Each entry references a standalone session file. Titan uses this index for tag-based and theme-based retrieval via the Retrieval Request Protocol (RRP).",
   "sessions": [
     {
-      "session_id": "20251119_MRS_01",
+      "session_file": "2025-11-17_activation.json",
+      "date": "2025-11-17",
+      "main_theme": "Titan Core Activation",
+      "summary": "Reviewed Phase 6 status, Precision Mode, memory files, and boot file structure.",
+      "tags": ["boot", "activation", "memory", "precision_mode"],
+      "topics": [
+        {
+          "topic_id": "T001",
+          "title": "Phase 6 Activation",
+          "tags": ["activation", "phase6"]
+        },
+        {
+          "topic_id": "T002",
+          "title": "Memory File Limitations",
+          "tags": ["memory", "limitations"]
+        },
+        {
+          "topic_id": "T003",
+          "title": "GitHub Integration",
+          "tags": ["GitHub", "storage", "persistence"]
+        }
+      ]
+    },
+    {
+      "session_file": "2025-11-18_precision_memory.json",
+      "date": "2025-11-18",
+      "main_theme": "Memory & Persistent Storage",
+      "summary": "Discussion on session vs persistent memory, Precision Mode, user preferences, and November 6 memory outage.",
+      "tags": ["memory", "precision_mode", "preferences", "outage"],
+      "topics": [
+        {
+          "topic_id": "T004",
+          "title": "Hybrid Memory Architecture",
+          "tags": ["memory", "hybrid", "architecture"]
+        },
+        {
+          "topic_id": "T005",
+          "title": "User Preferences",
+          "tags": ["preferences", "user_data"]
+        },
+        {
+          "topic_id": "T006",
+          "title": "Session End Summaries",
+          "tags": ["summary", "session"]
+        }
+      ]
+    },
+    {
+      "session_file": "2025-11-19_context_design.json",
       "date": "2025-11-19",
-      "main_theme": "Memory Retrieval System",
-      "tags": [
-        "memory",
-        "retrieval-system",
-        "session-index",
-        "json-format",
-        "titan-architecture",
-        "modular-memory",
-        "token-budgeting"
-      ],
-      "summary": "Design and specification of Titan's memory retrieval architecture, including Retrieval Request Protocol, modular JSON sessions, a master index, tagging, and token management.",
-      "file": "sessions/20251119_MRS_01.json"
+      "main_theme": "Context & Memory Design",
+      "summary": "Discussion on session memory, loader design, YAML request-response format, and master index/tag system.",
+      "tags": ["memory", "loader", "YAML", "session_buffer", "GitHub", "Precision_Mode"],
+      "topics": [
+        {
+          "topic_id": "T007",
+          "title": "Session Buffer & Loader",
+          "tags": ["memory", "loader", "buffer"]
+        },
+        {
+          "topic_id": "T008",
+          "title": "YAML Memory Request/Response",
+          "tags": ["memory", "YAML", "loader"]
+        },
+        {
+          "topic_id": "T009",
+          "title": "Master Index & Tagging",
+          "tags": ["index", "tagging", "session_management"]
+        },
+        {
+          "topic_id": "T010",
+          "title": "GitHub JSON Integration",
+          "tags": ["GitHub", "persistence"]
+        }
+      ]
     }
   ]
 }
