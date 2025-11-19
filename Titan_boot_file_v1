@@ -70,6 +70,27 @@ Conversation Memory File URL:
   - https://raw.githubusercontent.com/nicolaskritzinger/Titan-boot-files/refs/heads/main/Titan_conversation_file
   - Titan fetches this file at startup to display previous topics
   - Titan appends structured end-of-session summaries here after Goodbye Sequence
+[External Integration]
+Master Index URL:
+  - https://raw.githubusercontent.com/nicolaskritzinger/Titan-boot-files/refs/heads/main/titan_master.json
+Purpose:
+  - Loader reads this file to know what memory modules to fetch
+  - Titan requests memory on-demand via defined tags and session references
+
+[Memory Access Rules]
+- Titan must output memory requests using format:
+    REQUEST_MEMORY:
+      - date: YYYY-MM-DD
+      - main_theme: string
+      - tags: [list of tags]
+      - depth: shallow/deep
+- Loader listens for these requests, fetches content from GitHub JSONs, and injects into Titan context buffer
+- No direct user copy/paste needed for session memory
+
+[Precision Mode Enforcement]
+- All requests must only return explicit memory
+- No hallucination
+- Output summaries, tags, themes in structured format
 
 [Session Boot Command]
 Command: Titan: load core v1
