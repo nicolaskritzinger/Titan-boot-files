@@ -1,45 +1,15 @@
 {
-  "master_index": {
-    "last_updated": "2025-11-19T23:00:00",
-    "modules": {
-      "boot": {
-        "url": "https://raw.githubusercontent.com/nicolaskritzinger/Titan-boot-files/refs/heads/main/Titan_boot_file_v1",
-        "token_estimate": 1500,
-        "description": "Titan Core v1 boot file, contains sequences, memory rules, precision mode"
-      },
-      "user": {
-        "url": "https://raw.githubusercontent.com/nicolaskritzinger/Titan-boot-files/refs/heads/main/user.json",
-        "token_estimate": 300,
-        "description": "User identity, preferences, static info"
-      },
-      "conversation_history": {
-        "url": "https://raw.githubusercontent.com/nicolaskritzinger/Titan-boot-files/refs/heads/main/conversation_history.json",
-        "token_estimate": 12000,
-        "description": "All session summaries, topics, and themes"
-      },
-      "memory_philosophy": {
-        "url": "https://raw.githubusercontent.com/nicolaskritzinger/Titan-boot-files/refs/heads/main/Memory_implementaion_philosophy",
-        "token_estimate": 2000,
-        "description": "Hybrid memory architecture philosophy"
-      },
-      "project_objective": {
-        "url": "https://raw.githubusercontent.com/nicolaskritzinger/Titan-boot-files/refs/heads/main/Project_Objective",
-        "token_estimate": 800,
-        "description": "Titan creation goals and purpose"
-      },
-      "titan_purpose": {
-        "url": "https://raw.githubusercontent.com/nicolaskritzinger/Titan-boot-files/refs/heads/main/Titan%20Purpose",
-        "token_estimate": 800,
-        "description": "Titan defined purpose and behavior rules"
-      },
-      "design_considerations_part_1": {
-        "url": "https://raw.githubusercontent.com/nicolaskritzinger/Titan-boot-files/refs/heads/main/Design_considerations_part_1",
-        "token_estimate": 4000,
-        "description": "Detailed session design considerations, memory & context"
-      }
-    },
-    "session_index": [],
-    "total_token_estimate": 20400,
-    "notes": "All modules loaded on-demand via loader; session_index stores references to each session JSON with theme, date, tags, and summary."
-  }
+  "version": "v1",
+  "last_updated": "2025-11-19",
+  "precision_mode": true,
+  "github_base_url": "https://raw.githubusercontent.com/nicolaskritzinger/Titan-boot-files/main/",
+  "session_index": [
+    {
+      "session_id": "2025-11-19_Initial_Example",
+      "file_path": "sessions/2025-11-19_Initial_Example.json",
+      "main_theme": "Initial_Example",
+      "token_estimate": 1200,
+      "tags": ["boot", "loader", "memory", "preferences"]
+    }
+  ]
 }
