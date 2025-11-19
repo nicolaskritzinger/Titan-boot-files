@@ -1,0 +1,30 @@
+{
+  "session_id": "2025-11-19_Initial_Example",
+  "date": "2025-11-19",
+  "main_theme": "Initial_Example",
+  "summary": "This session demonstrates initial loader and memory integration for Titan.",
+  "token_estimate": 1200,
+  "topics": [
+    {
+      "topic_id": "boot_file_loading",
+      "title": "Boot File Loading",
+      "tags": ["boot", "loader", "context"],
+      "summary": "Loaded Titan Core v1 boot file and verified sequences.",
+      "details": "Confirmed Hello and Goodbye sequences, Precision Mode ON, external GitHub integration."
+    },
+    {
+      "topic_id": "conversation_memory",
+      "title": "Conversation Memory Handling",
+      "tags": ["memory", "GitHub", "json"],
+      "summary": "Created master index and example session to test persistence.",
+      "details": "Stored session summary and topics in GitHub JSON format, ready for retrieval via loader."
+    },
+    {
+      "topic_id": "preferences",
+      "title": "User Preferences",
+      "tags": ["user", "preferences"],
+      "summary": "Verified that user preferences can be loaded into session context.",
+      "details": "Preferences include cuisine, drink, activity, pets, entertainment, weather, and spice levels."
+    }
+  ]
+}
