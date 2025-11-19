@@ -1,0 +1,11 @@
+Titan-boot-files/
+│
+├── Titan_boot_file_v1
+├── Titan_Purpose
+├── Project_Objective
+├── Memory_implementaion_philosophy
+├── Design_considerations_part_1
+├── master_index.json        ← YES, this goes here
+│
+└── sessions/
+      └── 20251119_MRS_01.json
