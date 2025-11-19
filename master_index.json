@@ -1,11 +1,23 @@
-Titan-boot-files/
-│
-├── Titan_boot_file_v1
-├── Titan_Purpose
-├── Project_Objective
-├── Memory_implementaion_philosophy
-├── Design_considerations_part_1
-├── master_index.json        ← YES, this goes here
-│
-└── sessions/
-      └── 20251119_MRS_01.json
+
+{
+  "version": "1.0",
+  "description": "Master index of all Titan long-term memory sessions. Each entry references a standalone session file. Titan uses this index for tag-based and theme-based retrieval via the Retrieval Request Protocol (RRP).",
+  "sessions": [
+    {
+      "session_id": "20251119_MRS_01",
+      "date": "2025-11-19",
+      "main_theme": "Memory Retrieval System",
+      "tags": [
+        "memory",
+        "retrieval-system",
+        "session-index",
+        "json-format",
+        "titan-architecture",
+        "modular-memory",
+        "token-budgeting"
+      ],
+      "summary": "Design and specification of Titan's memory retrieval architecture, including Retrieval Request Protocol, modular JSON sessions, a master index, tagging, and token management.",
+      "file": "sessions/20251119_MRS_01.json"
+    }
+  ]
+}
