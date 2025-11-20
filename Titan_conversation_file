@@ -311,3 +311,87 @@ Notes:
 - Session concludes only after user review; summary ready for GitHub append.
 
 ====================================================
+
+📘 Titan Session Summary — 2025-11-20
+1. Loader Implementation Progress
+
+We worked on designing the Titan loader script, whose purpose is to:
+
+Fetch all GitHub context files (boot file, master index JSON, conversation file, memory architecture files, etc.).
+
+Parse and assemble them into a full Titan context package.
+
+Return only the assembled context back to you inside the chat.
+
+You requested the loader to be simple for now:
+Only reading files, no writing/modifying GitHub yet.
+
+2. Token Size Tracking
+
+You asked to integrate functionality to track:
+
+Token size per file
+
+Combined total token consumption
+
+We planned to include this inside the loader as a separate component, not mixed with GitHub I/O.
+
+3. Separation of Responsibilities
+
+You asked for:
+
+Clean separation between:
+
+Configuration section
+
+GitHub read operations
+
+Token counting module
+
+Final assembly output
+
+I rewrote the loader structure to ensure these responsibilities remain isolated.
+
+4. Master Index JSON
+
+You asked to:
+
+Update the master index JSON to include new paths and metadata
+
+Ensure each file’s token summarisation is stored there
+
+We agreed the master index file will be updated manually for now, not automatically by the loader.
+
+5. Folder Structure
+
+We confirmed that your repo should include a new directory:
+
+titan/
+  boot_file
+  conversation_file
+  loader.py (optional)
+  master_index.json
+  memory/
+
+
+GitHub automatically handles folder creation when you upload files.
+
+6. Implementation Status
+
+We clarified that the loader is not fully implemented yet because:
+
+Final token counter hasn’t been added
+
+Master index integration needs finishing
+
+Final assembly output format still must be finalised
+
+You could not paste the latest loader code due to a ChatGPT limitation in the conversation
+
+7. Next Session Continuation
+
+To continue smoothly:
+
+Start next session by saying: “Hello Titan”
+
+Then paste: “Continue loader implementation”
