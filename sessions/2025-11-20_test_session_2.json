@@ -1,0 +1,17 @@
+{
+    "session_id": "2025-11-20_test_session_2",
+    "date": "2025-11-20",
+    "main_theme": "test session 2",
+    "summary": "testing github push",
+    "token_estimate": 12,
+    "topics": [
+        {
+            "summary": "tesring thay goodbuy pushes this to github",
+            "details": "testing that goodbuy pushes this to github longer",
+            "tags": [
+                "test",
+                "github"
+            ]
+        }
+    ]
+}
