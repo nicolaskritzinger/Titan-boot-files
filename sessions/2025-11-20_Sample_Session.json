@@ -1,0 +1,25 @@
+{
+    "session_id": "2025-11-20_Sample_Session",
+    "date": "2025-11-20",
+    "main_theme": "Sample Session",
+    "summary": "Demonstration of Titan loader buffer and CLI",
+    "token_estimate": 40,
+    "topics": [
+        {
+            "summary": "Test of memory retrieval",
+            "details": "This topic tests Titan's ability to load, store, and query sessions correctly.",
+            "tags": [
+                "test",
+                "memory"
+            ]
+        },
+        {
+            "summary": "CLI interaction check",
+            "details": "This topic tests that the CLI loop responds to commands: hello, add, query, goodbye.",
+            "tags": [
+                "test",
+                "cli"
+            ]
+        }
+    ]
+}
