@@ -40,6 +40,28 @@
                 "cli"
             ],
             "pushed": false
+        },
+        {
+            "session_id": "2025-11-20_Sample_Session",
+            "file_path": "sessions/2025-11-20_Sample_Session.json",
+            "main_theme": "Sample Session",
+            "token_estimate": 40,
+            "tags": [
+                "test",
+                "memory",
+                "test",
+                "cli"
+            ]
+        },
+        {
+            "session_id": "2025-11-20_test_session_2",
+            "file_path": "sessions/2025-11-20_test_session_2.json",
+            "main_theme": "test session 2",
+            "token_estimate": 12,
+            "tags": [
+                "test",
+                "github"
+            ]
         }
     ]
 }
