@@ -1,0 +1,45 @@
+{
+    "version": "v1",
+    "last_updated": "2025-11-20",
+    "precision_mode": true,
+    "github_base_url": "https://raw.githubusercontent.com/nicolaskritzinger/Titan-boot-files/main/",
+    "session_index": [
+        {
+            "session_id": "2025-11-20_Sample_Session",
+            "file_path": "sessions/2025-11-20_Sample_Session.json",
+            "main_theme": "Sample Session",
+            "token_estimate": 40,
+            "tags": [
+                "test",
+                "memory",
+                "test",
+                "cli"
+            ]
+        },
+        {
+            "session_id": "2025-11-20_Sample_Session",
+            "file_path": "sessions/2025-11-20_Sample_Session.json",
+            "main_theme": "Sample Session",
+            "token_estimate": 40,
+            "tags": [
+                "test",
+                "memory",
+                "test",
+                "cli"
+            ]
+        },
+        {
+            "session_id": "2025-11-20_Sample_Session",
+            "file_path": "sessions/2025-11-20_Sample_Session.json",
+            "main_theme": "Sample Session",
+            "token_estimate": 40,
+            "tags": [
+                "test",
+                "memory",
+                "test",
+                "cli"
+            ],
+            "pushed": false
+        }
+    ]
+}
