@@ -1,5 +1,1 @@
-ha = get_file_sha()
-    message = "Update Titan_clipboard from phone"
-
-    content_encoded = text.encode("utf-8")
-    b64 =
+p
