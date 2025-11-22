@@ -1,1 +1,0 @@
-    filename = sanitize_filename(file_content.split("\n")[0]) + ".txt"
