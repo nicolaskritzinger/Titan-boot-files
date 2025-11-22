@@ -1,1 +1,0 @@
-def upload_to_github(file_content):
