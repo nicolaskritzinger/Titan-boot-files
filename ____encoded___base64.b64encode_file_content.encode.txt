@@ -1,1 +1,0 @@
-    encoded = base64.b64encode(file_content.encode()).decode()
