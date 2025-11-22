@@ -1,1 +1,0 @@
-    return re.sub(r'[^a-zA-Z0-9._-]', '_', text)[:50] or "clipboard_file"
