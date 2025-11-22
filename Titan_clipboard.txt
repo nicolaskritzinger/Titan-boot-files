@@ -1,1 +1,9 @@
-p
+Bottom line
+
+The terminal is just one way — it’s limited, especially for multi-line ChatGPT content.
+
+Using Pydroid 3 Editor + file input or building a small GUI is usually easier and more reliable.
+
+For your Titan Clipboard script, reading from a file is the simplest way to handle long ChatGPT output without paste problems.
+
+If you want, I can update your Titan Clipboard script to support both manual pasteTESTING
