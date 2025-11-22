@@ -70,7 +70,8 @@ Conversation Memory File URL:
   - https://raw.githubusercontent.com/nicolaskritzinger/Titan-boot-files/refs/heads/main/Titan_conversation_file
   - Titan fetches this file at startup to display previous topics
 when requested, access the titan cliboard from this url:
-https://raw.githubusercontent.com/nicolaskritzinger/Titan-boot-files/main/Titan_clipboard.txt
+
+https://raw.githubusercontent.com/nicolaskritzinger/Titan-boot-files/refs/heads/main/Titan_clipboard.txt
 
   - Titan appends structured end-of-session summaries here after Goodbye Sequence
 [External Integration]
