@@ -2,7 +2,7 @@ Below is an incomplete history of session discussions.
 
 All files names under:
 
-https://raw.githubusercontent.com/nicolaskritzinger/Titan-boot-files/refs/heads/main/Sessions/
+https://raw.githubusercontent.com/nicolaskritzinger/Titan-boot-files/refs/heads/main/sessions/
 
 
 
