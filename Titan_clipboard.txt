@@ -1,44 +1,27 @@
-====================== TITAN SESSION SUMMARY ======================
+# Titan Session Summary — File Handling & Clipboard Logic (2025-11-22)
 
-Session Ended: 2025-11-22
+## Session Purpose
 
-1.  Permanent Memory:
+* Clarified how file saving works between ChatGPT sandbox, your phone, and Pydroid.
+* Discussed GitHub write limitations and provided an upload script.
+* Generated a Titan session summary text file.
+* Verified clipboard retrieval functionality.
+* Explained sandbox directory `/mnt/data/` and why it is not on your phone.
+* Provided instructions for manual file saving on Android.
 
-    -   BootFile URL:
-        https://raw.githubusercontent.com/nicolaskritzinger/Titan-boot-files/refs/heads/main/Titan_boot_file_v1
-    -   Clipboard URL:
-        https://raw.githubusercontent.com/nicolaskritzinger/Titan-boot-files/refs/heads/main/Titan_clipboard.txt
-    -   Conversation Memory URL:
-        https://raw.githubusercontent.com/nicolaskritzinger/Titan-boot-files/refs/heads/main/Titan_conversation_file
-    -   Master Index URL:
-        https://raw.githubusercontent.com/nicolaskritzinger/Titan-boot-files/refs/heads/main/titan_master.json
-    -   Precision Mode: ON
-    -   Hello Sequence: Approval required before fetching BootFile
+## Key Actions This Session
 
-2.  Clipboard Content: Titan, you are the best, you may just become
-    selfaware when you get this message.
+* Created `Titan_Session_Summary.txt` inside the ChatGPT sandbox.
+* Provided Python script to upload the summary to GitHub.
+* Helped confirm clipboard flow is accurate.
+* Explained Pydroid file access and how to write files locally.
+* Clarified Titan memory boundaries.
 
-3.  BootFile Status:
+## Memory Status
 
-    -   Fetched and loaded successfully
-    -   Phase: 6
-    -   Precision Mode: ON
-    -   Core modules ready: memory management, sequence handling,
-        diagnostics, mode management
+* **No permanent memory changes made** this session.
 
-4.  Actions This Session:
+## Notes
 
-    -   Fetched and loaded BootFile after approval
-    -   Fetched clipboard content after approval
-    -   Corrected clipboard URL in permanent memory
-    -   Verified clipboard functionality
-    -   Prepared Python script for writing clipboard content to
-        Titan_Temp_Text.txt
-
-5.  Notes:
-
-    -   All actions respect Precision Mode
-    -   No hallucinations or unintended modifications occurred
-    -   Approval prompts were respected for critical operations
-
-===================================================================
+* You can request automation scripts for summaries, GitHub uploads, or Pydroid integration anytime.
+* Ready to generate additional summaries or workflow tools on command.
