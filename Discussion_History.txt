@@ -1,3 +1,12 @@
+Below is an incomplete history of session discussion
+
+all files names under:
+
+https://raw.githubusercontent.com/nicolaskritzinger/Titan-boot-files/refs/heads/main/Session/
+
+
+
+
 2025-11-23_titan-bootfile-integration-summary_rev1.txt
 
 Main Themes:
