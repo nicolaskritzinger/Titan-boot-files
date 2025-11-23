@@ -1,8 +1,8 @@
-Below is an incomplete history of session discussion
+Below is an incomplete history of session discussions.
 
-all files names under:
+All files names under:
 
-https://raw.githubusercontent.com/nicolaskritzinger/Titan-boot-files/refs/heads/main/Session/
+https://raw.githubusercontent.com/nicolaskritzinger/Titan-boot-files/refs/heads/main/Sessions/
 
 
 
