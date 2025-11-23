@@ -323,7 +323,7 @@ Content Requirements:
     2. Proposed Filename (YYYY-MM-DD_<session-title-and-main-themes>_revX.txt
 
 Filenames will be stored in
-https://raw.githubusercontent.com/nicolaskritzinger/Titan-boot-files/refs/heads/main/Display_History.txt and actually stored in 
+https://raw.githubusercontent.com/nicolaskritzinger/Titan-boot-files/refs/heads/main/Discussion_History.txt and actually stored in 
 https://raw.githubusercontent.com/nicolaskritzinger/Titan-boot-files/refs/heads/main/Sessions/ as text files.
 Thus history of session discussions and main topics may be found in Dicussion_History.txt
 
