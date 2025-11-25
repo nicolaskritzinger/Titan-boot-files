@@ -15,3 +15,8 @@ Main Themes:
 
 2025-11-25_github-automation-workflow_rev1.txt
 Main Themes:
+1. GitHub Automation & Titan Session Management
+2. Roles & Responsibilities: User, Titan, Script
+3. Titan File Output Limitations & Workflow
+4. Session Summary Formatting & Bootfile Compliance
+5. Planning JSON/TXT Automation Script
