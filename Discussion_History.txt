@@ -13,7 +13,7 @@ Main Themes:
 4. Session Reference Display
 
 
-2025-11-25_github-automation-workflow_rev1.txt
+2025-11-25_github-automation-workflow.txt
 Main Themes:
 1. GitHub Automation & Titan Session Management
 2. Roles & Responsibilities: User, Titan, Script
