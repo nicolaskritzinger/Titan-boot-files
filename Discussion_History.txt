@@ -5,13 +5,13 @@ All files names under:
 https://raw.githubusercontent.com/nicolaskritzinger/Titan-boot-files/refs/heads/main/sessions/
 
 
-
-
 2025-11-23_titan-bootfile-integration-summary_rev1.txt
-
 Main Themes:
 1. Boot File Structure
 2. Precision Mode Rules
 3. End-of-Session Summary
 4. Session Reference Display
 
+
+2025-11-25_github-automation-workflow_rev1.txt
+Main Themes:
